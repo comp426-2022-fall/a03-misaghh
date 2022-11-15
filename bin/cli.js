@@ -1,2 +1,2 @@
 import minimist from "minimist";
-import {rollDice} from "/lib/roll.js"
+import { roll } from "/lib/roll.js"
