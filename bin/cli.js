@@ -9,3 +9,4 @@ const sides = args.sides || 6;
 const dice = args.dice || 2;
 const rolls = args.rolls || 1;
 
+let output = roll(side, dice, rolls);
