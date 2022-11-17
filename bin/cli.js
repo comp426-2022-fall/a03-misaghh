@@ -12,3 +12,5 @@ const rolls = args.rolls || 1;
 let output = roll(side, dice, rolls);
 
 console.log(JSON.stringify({"side": sides, "dice": dice, "roll": rolls, "output": output}));
+
+process.exit(0);
