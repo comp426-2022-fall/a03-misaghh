@@ -9,7 +9,7 @@ const sides = args.sides || 6;
 const dice = args.dice || 2;
 const rolls = args.rolls || 1;
 
-let output = roll(side, dice, rolls);
+let output = roll(sides, dice, rolls);
 
 console.log(JSON.stringify({"side": sides, "dice": dice, "roll": rolls, "output": output}));
 
