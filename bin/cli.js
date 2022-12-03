@@ -11,10 +11,10 @@ const sides = args.sides || 6;
 const dice = args.dice || 2;
 const rolls = args.rolls || 1;
 
-let output = roll(sides, dice, rolls);
+//let output = roll(sides, dice, rolls);
 
 
-console.log(JSON.stringify({"side": sides, "dice": dice, "roll": rolls, "output": output}));
-//console.log(JSON.stringify(roll(sides, dice, rolls)));
+//console.log(JSON.stringify({"side": sides, "dice": dice, "roll": rolls, "output": output}));
+console.log(JSON.stringify(roll(sides, dice, rolls)));
 
-process.exit(0);
+//process.exit(0);
